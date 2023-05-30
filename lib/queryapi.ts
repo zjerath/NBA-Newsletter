@@ -1,5 +1,4 @@
 import openai from './chatgpt'
-import admin from 'firebase-admin';
 import { adminDb } from '../firebaseadmin';
 
 interface Session {
@@ -29,6 +28,7 @@ const query = async (prompt: string, chatId: string, model: string, session: Ses
         }
     });
     // Combine all messages into a single string
+    messages[messages.length - 1] = prompt
     const conversation = messages.join('\n');
     const res = await openai.createCompletion({
         model,

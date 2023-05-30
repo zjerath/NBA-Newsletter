@@ -70,7 +70,7 @@ function Chat({ chatId }: Props) {
                         </li>
                         <li className="li">
                         "Analyze my bets:
-                        Kevin Durant, Phoenix, Assits, Under." 
+                        Kevin Durant, Phoenix, Assists, Under." 
                         </li>
                         <li className="li">
                         "How many points does Lebron average against the Warriors?"

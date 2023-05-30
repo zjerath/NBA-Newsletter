@@ -2,7 +2,6 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import query from '../../lib/queryapi'
 import admin from 'firebase-admin'
 import { adminDb } from '../../firebaseadmin'
-import { resolve } from 'path';
 const { exec } = require('child_process');
 
 type Data = {
@@ -14,7 +13,6 @@ export default async function handler(
     res: NextApiResponse<Data>
 ) {
     var {prompt, chatId, model, session } = req.body
-    console.log(prompt);
     if (!prompt) {
         res.status(400).json({ answer: 'Please provide a prompt!' })
         return
@@ -42,7 +40,6 @@ export default async function handler(
         // trim any leading or trailing whitespace from each detail
         betDetails = betDetails.map((detail:string) => detail.trim());
 
-        console.log(betDetails);
         betDetails = betDetails.map((detail: string) => detail.trim());
 
         // get the individual components
@@ -51,13 +48,9 @@ export default async function handler(
         let stat = betDetails[2];
         let betType = betDetails[3];
 
-        console.log(player);  // Output: 'Kevin Durant'
-        console.log(team);    // Output: 'Phoenix'
-        console.log(stat);    // Output: 'Assists'
-        console.log(betType); // Output: 'Over'
         const path = require('path');
 
-// save the original working directory
+    // save the original working directory
         const originalDirectory = process.cwd();
 
         const pythonScriptPath = path.join(__dirname, '../../../../python_files/main.py');
@@ -76,8 +69,6 @@ export default async function handler(
                     console.error(`Error executing the Python script: ${error}`);
                     reject(error);
                 } else {
-                    console.log('Python script executed successfully!');
-                    console.log('Output:', stdout);
                     resolve(stdout);
                 }
             });
@@ -85,14 +76,12 @@ export default async function handler(
 
         try {
             prompt = await promise;
-            console.log('Result:', prompt);
         } catch (error) {
             console.error('Error:', error);
             // change the working directory back to the original in case of an error
         }
         process.chdir(originalDirectory);
 
-        console.log(prompt)
         const response = await query(prompt, chatId, model, session)
         const message: Message = {
             text: response || 'NBANewsletter was unable to find an answer for that!',
