@@ -40,8 +40,8 @@ function Chat({ chatId }: Props) {
                 <h1 className="h1">
                     NBANewsletter
                     <button className={`popup-button ${open ? 'active' : ''}`} onClick={() => setOpen(true)}>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" className="svginfo">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"></path>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="svginfo">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"></path>
                         </svg>
                     </button>
                 </h1>
@@ -50,8 +50,8 @@ function Chat({ chatId }: Props) {
                     <div className="div7">
                     <h2 className="h2">
                         <svg stroke="currentColor" fill="none" 
-                        stroke-width="1.5" viewBox="0 0 24 24" 
-                        stroke-linecap="round" className="svg">
+                        strokeWidth="1.5" viewBox="0 0 24 24" 
+                        strokeLinecap="round" className="svg">
                         <circle cx="12" cy="12" r="5"></circle>
                         <line x1="12" y1="1" x2="12" y2="3"></line>
                         <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -80,10 +80,10 @@ function Chat({ chatId }: Props) {
                     <div className="div7">
                     <h2 className="h2">
                         <svg stroke="currentColor" fill="none" 
-                        stroke-width="1.5" viewBox="0 0 24 24" 
+                        strokeWidth="1.5" viewBox="0 0 24 24" 
                         aria-hidden="true" height="1em" width="1em"
                         xmlns="http://www.w3.org/2000/svg" className="svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" 
+                        <path strokeLinecap="round" strokeLinejoin="round" 
                         d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                         </svg>
                         Capabilities
@@ -103,8 +103,8 @@ function Chat({ chatId }: Props) {
                     <div className="div7">
                     <h2 className="h2">
                         <svg stroke="currentColor" fill="none" 
-                        stroke-width="1.5" viewBox="0 0 24 24" 
-                        stroke-linecap="round" stroke-linejoin="round"
+                        strokeWidth="1.5" viewBox="0 0 24 24" 
+                        strokeLinecap="round" strokeLinejoin="round"
                         height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" 
                         className="svg">
                         <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
