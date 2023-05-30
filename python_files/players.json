@@ -1,0 +1,347 @@
+[
+    {
+        "name": "Devin Booker",
+        "props": [
+            {
+                "name": "Assists",
+                "over_line": 5.5,
+                "over_cost": "(-130)",
+                "under_cost": "(EVEN)"
+            },
+            {
+                "name": "Points",
+                "over_line": 30.5,
+                "over_cost": "(-110)",
+                "under_cost": "(-120)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 5.5,
+                "over_cost": "(+120)",
+                "under_cost": "(-160)"
+            }
+        ]
+    },
+    {
+        "name": "Aaron Gordon",
+        "props": [
+            {
+                "name": "Rebounds",
+                "over_line": 6.5,
+                "over_cost": "(+110)",
+                "under_cost": "(-150)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 2.5,
+                "over_cost": "(+130)",
+                "under_cost": "(-175)"
+            },
+            {
+                "name": "Points",
+                "over_line": 13.5,
+                "over_cost": "(-130)",
+                "under_cost": "(EVEN)"
+            }
+        ]
+    },
+    {
+        "name": "Nikola Jokic",
+        "props": [
+            {
+                "name": "Assists",
+                "over_line": 8.5,
+                "over_cost": "(-150)",
+                "under_cost": "(+110)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 12.5,
+                "over_cost": "(-120)",
+                "under_cost": "(-115)"
+            },
+            {
+                "name": "Points",
+                "over_line": 25.5,
+                "over_cost": "(-105)",
+                "under_cost": "(-125)"
+            }
+        ]
+    },
+    {
+        "name": "Chris Paul",
+        "props": [
+            {
+                "name": "Points",
+                "over_line": 14.5,
+                "over_cost": "(-105)",
+                "under_cost": "(-130)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 4.5,
+                "over_cost": "(-105)",
+                "under_cost": "(-125)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 8.5,
+                "over_cost": "(-145)",
+                "under_cost": "(+105)"
+            }
+        ]
+    },
+    {
+        "name": "Deandre Ayton",
+        "props": [
+            {
+                "name": "Assists",
+                "over_line": 0.5,
+                "over_cost": "(-165)",
+                "under_cost": "(+125)"
+            },
+            {
+                "name": "Points",
+                "over_line": 15.5,
+                "over_cost": "(-130)",
+                "under_cost": "(-105)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 9.5,
+                "over_cost": "(-120)",
+                "under_cost": "(-110)"
+            }
+        ]
+    },
+    {
+        "name": "Kentavious Caldwell Pope",
+        "props": [
+            {
+                "name": "Rebounds",
+                "over_line": 2.5,
+                "over_cost": "(+105)",
+                "under_cost": "(-145)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 1.5,
+                "over_cost": "(-140)",
+                "under_cost": "(+105)"
+            },
+            {
+                "name": "Points",
+                "over_line": 9.5,
+                "over_cost": "(-130)",
+                "under_cost": "(-105)"
+            }
+        ]
+    },
+    {
+        "name": "Torrey Craig",
+        "props": [
+            {
+                "name": "Rebounds",
+                "over_line": 4.5,
+                "over_cost": "(+102)",
+                "under_cost": "(-130)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 0.5,
+                "over_cost": "(-250)",
+                "under_cost": "(+180)"
+            },
+            {
+                "name": "Points",
+                "over_line": 7.5,
+                "over_cost": "(-132)",
+                "under_cost": "(+104)"
+            }
+        ]
+    },
+    {
+        "name": "Kevin Durant",
+        "props": [
+            {
+                "name": "Points",
+                "over_line": 27.5,
+                "over_cost": "(-105)",
+                "under_cost": "(-125)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 7.5,
+                "over_cost": "(+115)",
+                "under_cost": "(-150)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 5.5,
+                "over_cost": "(+120)",
+                "under_cost": "(-160)"
+            }
+        ]
+    },
+    {
+        "name": "Jamal Murray",
+        "props": [
+            {
+                "name": "Points",
+                "over_line": 22.5,
+                "over_cost": "(-125)",
+                "under_cost": "(-105)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 4.5,
+                "over_cost": "(EVEN)",
+                "under_cost": "(-135)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 6.5,
+                "over_cost": "(+110)",
+                "under_cost": "(-145)"
+            }
+        ]
+    },
+    {
+        "name": "Josh Okogie",
+        "props": [
+            {
+                "name": "Rebounds",
+                "over_line": 3.5,
+                "over_cost": "(+135)",
+                "under_cost": "(-185)"
+            },
+            {
+                "name": "Points",
+                "over_line": 6.5,
+                "over_cost": "(-115)",
+                "under_cost": "(-115)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 1.5,
+                "over_cost": "(+160)",
+                "under_cost": "(-225)"
+            }
+        ]
+    },
+    {
+        "name": "Michael Porter",
+        "props": [
+            {
+                "name": "Assists",
+                "over_line": 0.5,
+                "over_cost": "(-250)",
+                "under_cost": "(+170)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 6.5,
+                "over_cost": "(+120)",
+                "under_cost": "(-160)"
+            },
+            {
+                "name": "Points",
+                "over_line": 16.5,
+                "over_cost": "(-130)",
+                "under_cost": "(-105)"
+            }
+        ]
+    },
+    {
+        "name": "Jeff Green",
+        "props": [
+            {
+                "name": "Points",
+                "over_line": 6.5,
+                "over_cost": "(+105)",
+                "under_cost": "(-140)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 0.5,
+                "over_cost": "(-250)",
+                "under_cost": "(+180)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 2.5,
+                "over_cost": "(+135)",
+                "under_cost": "(-185)"
+            }
+        ]
+    },
+    {
+        "name": "Christian Braun",
+        "props": [
+            {
+                "name": "Assists",
+                "over_line": 0.5,
+                "over_cost": "(+105)",
+                "under_cost": "(-140)"
+            },
+            {
+                "name": "Points",
+                "over_line": 3.5,
+                "over_cost": "(+105)",
+                "under_cost": "(-140)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 1.5,
+                "over_cost": "(-125)",
+                "under_cost": "(-105)"
+            }
+        ]
+    },
+    {
+        "name": "Bismack Biyombo",
+        "props": [
+            {
+                "name": "Assists",
+                "over_line": 0.5,
+                "over_cost": "(-105)",
+                "under_cost": "(-125)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 3.5,
+                "over_cost": "(+105)",
+                "under_cost": "(-140)"
+            },
+            {
+                "name": "Points",
+                "over_line": 3.5,
+                "over_cost": "(-130)",
+                "under_cost": "(-105)"
+            }
+        ]
+    },
+    {
+        "name": "Bruce Brown Jr",
+        "props": [
+            {
+                "name": "Points",
+                "over_line": 11.5,
+                "over_cost": "(-105)",
+                "under_cost": "(-130)"
+            },
+            {
+                "name": "Rebounds",
+                "over_line": 3.5,
+                "over_cost": "(-135)",
+                "under_cost": "(EVEN)"
+            },
+            {
+                "name": "Assists",
+                "over_line": 2.5,
+                "over_cost": "(+135)",
+                "under_cost": "(-185)"
+            }
+        ]
+    }
+]

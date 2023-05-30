@@ -1,0 +1,159 @@
+.chatdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    background-color: rgb(26, 26, 32);
+}
+
+.div5 {
+    color: rgb(236,236,241);
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.nbaimg {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.div6 {
+    align-items: flex-start;
+    text-align: center;
+    gap: 0.875rem;
+}
+
+.div7 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    flex: 1 1 0%;
+}
+
+.h2 {
+    display: flex;
+    gap: 0.875rem;
+    align-items: center;
+    margin: auto;
+    font-size: 1.125rem;
+    line-height: 1/75rem;
+    font-weight: 400;
+}
+
+.svg {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.li {
+    background-color: hsla(0,0%,100%,.05);
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+}
+
+button {
+    appearance: button;
+    background-color: transparent;
+    border: none;
+    text-transform: none;
+}
+
+.svginfo {
+    margin-right: 0.25rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.popup-button {
+    color: white;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-button:hover {
+    background-color: rgb(60, 60, 74);
+    cursor: pointer;
+}
+
+.popup-button.active {
+    background-color: rgb(60, 60, 74);
+}
+
+.svg2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 3px;
+}
+
+@media (min-width: 768px) {
+    .div5 {
+        max-width: 48rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div6 {
+        display: flex;
+    }
+
+    .div7 {
+        margin-bottom: auto;
+    }
+
+    .h2 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .ul {
+        max-width: 28rem;
+    }
+}

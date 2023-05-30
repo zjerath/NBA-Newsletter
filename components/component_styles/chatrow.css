@@ -1,0 +1,68 @@
+.chatrowlink {
+    display: flex;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    align-items: center;
+    gap: 0.75rem;
+    position: relative;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    word-break: break-all;
+    color: white;
+    text-decoration: none;
+}
+
+.linkhover:hover {
+    background-color: #2A2B32;
+}
+
+.chatbubble, .trash{
+    height: 1rem;
+    width: 1rem;
+}
+
+.trash:hover {
+    color: red;
+}
+
+.chatrowtext {
+    flex: 1 1 0%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    position: relative;
+    font-size: .875rem;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.chatrowblur {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 2rem; 
+    z-index: 10;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.linkhover:hover .chatrowblur {
+    background: linear-gradient(to left, rgb(42, 43, 50), rgba(42,43,50, 0));
+}
+
+.chatrowbluractive {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 2rem; 
+    z-index: 10;
+    background: linear-gradient(to left, rgb(61, 63, 73), rgba(61, 63, 73, 0));
+}
+
+.chatrowactive {
+    background-color: #3d3f49;
+}
